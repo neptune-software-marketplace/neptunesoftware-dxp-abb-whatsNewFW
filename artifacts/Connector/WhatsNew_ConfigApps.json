@@ -1,0 +1,18 @@
+{
+	"id": "b5c0d22f-9274-ed11-9f60-000d3aba46be",
+	"createdAt": "2022-12-05T11:44:34.480Z",
+	"createdBy": "carlos.pires@neptune-software.com",
+	"settings": {
+		"tableid": "6f33f403-9e53-ed11-819c-000d3aba7f72",
+		"hasDocumentation": false,
+		"previewable": true
+	},
+	"documentation": {},
+	"name": "WhatsNew_ConfigApps",
+	"description": "Create the App configuration ",
+	"group": null,
+	"type": "T",
+	"ver": "22.12.5.1155",
+	"disabled": false,
+	"package": "fc50f7c2-4151-ed11-819c-000d3aba7f72"
+}

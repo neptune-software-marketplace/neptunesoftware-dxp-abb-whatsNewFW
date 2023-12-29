@@ -1,0 +1,80 @@
+{
+	"id": "a8507be3-4351-ed11-819c-000d3aba7f72",
+	"createdAt": "2022-10-21T13:25:55.436Z",
+	"createdBy": "carlos.pires@neptune-software.com",
+	"fields": [
+		{
+			"id": "bfe27e15-7d03-4b0d-99ac-20be4035c71f",
+			"fieldName": "application",
+			"fieldType": "smalltext",
+			"description": "Application identifier where the info will be displayed ",
+			"isNullable": false
+		},
+		{
+			"id": "1abde5e9-3ad5-4a30-8e02-e19cb1955ea6",
+			"fieldName": "startDate",
+			"fieldType": "timestamp",
+			"isNullable": false,
+			"description": "Start Date to show the message"
+		},
+		{
+			"id": "c7911bf0-df2f-49b8-ba98-632a567b5ccf",
+			"fieldName": "validUntil",
+			"fieldType": "timestamp",
+			"isNullable": false,
+			"description": "Show this message until this date"
+		},
+		{
+			"id": "60dc4d2a-7e08-460f-9fec-8b8221121821",
+			"fieldName": "messageTitle",
+			"fieldType": "smalltext",
+			"description": "Message title"
+		},
+		{
+			"id": "e2350215-51ea-4834-cf68-7a093f702480",
+			"fieldName": "message",
+			"fieldType": "text",
+			"isNullable": false,
+			"description": "Message"
+		},
+		{
+			"id": "6285266f-6799-4219-b228-910af378c546",
+			"fieldName": "mediaContent",
+			"fieldType": "text",
+			"description": "Media to complement the Message if needed "
+		},
+		{
+			"id": "800312e4-1cac-4d68-e06e-c6b7aed91ea3",
+			"fieldName": "mediaType",
+			"fieldType": "text",
+			"description": "Media Type, Image or Video."
+		},
+		{
+			"id": "ceb47b68-b512-40fb-d262-65120d4fb6c4",
+			"fieldName": "url",
+			"fieldType": "text",
+			"description": "Url to complement the Message, if needed "
+		},
+		{
+			"id": "c58ff9b7-f42f-4fe4-e672-2e0bdfd60e58",
+			"fieldName": "highlight",
+			"fieldType": "boolean",
+			"description": "Highlight "
+		},
+		{
+			"id": "3093e69f-b8a0-4159-bcde-261c2ba00eee",
+			"fieldName": "draft",
+			"fieldType": "boolean"
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "whatsnew_main",
+	"description": "What's New Main",
+	"ver": "22.10.24.1611",
+	"enableAudit": false,
+	"includeDataInPackage": false,
+	"package": "fc50f7c2-4151-ed11-819c-000d3aba7f72",
+	"rolesRead": [],
+	"rolesWrite": []
+}

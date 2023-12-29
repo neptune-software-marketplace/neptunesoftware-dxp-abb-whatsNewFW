@@ -1,0 +1,152 @@
+{
+	"id": "59fb8788-fd58-ed11-819c-000d3aba42c8",
+	"createdAt": "2022-10-31T09:22:26.910Z",
+	"createdBy": "carlos.pires@neptune-software.com",
+	"auth": [],
+	"endpoints": [],
+	"paths": [
+		{
+			"id": "66973329-d7fa-4081-ee61-94e92c5f6364",
+			"method": "POST",
+			"path": "/Save",
+			"description": "",
+			"parameters": [],
+			"headers": [],
+			"responses": [
+				{
+					"status": "200",
+					"description": "OK",
+					"headers": [],
+					"body": [],
+					"content": []
+				}
+			],
+			"serverScript": "53757f26-fc58-ed11-819c-000d3aba42c8"
+		},
+		{
+			"id": "79d36723-48cb-4a95-e231-cd72bcfa5d34",
+			"method": "GET",
+			"path": "/GetMessage",
+			"description": "",
+			"parameters": [
+				{
+					"name": "App",
+					"description": "",
+					"required": true,
+					"inPath": false,
+					"value": "",
+					"default": "",
+					"example": ""
+				}
+			],
+			"headers": [],
+			"responses": [
+				{
+					"status": "200",
+					"description": "OK",
+					"headers": [],
+					"body": [],
+					"content": []
+				}
+			],
+			"serverScript": "f3c21ad6-2d59-ed11-819c-000d3aba42c8"
+		},
+		{
+			"id": "b58e41a7-556a-4c55-b4dc-c4011f37e081",
+			"method": "GET",
+			"path": "/GetApps",
+			"description": "",
+			"parameters": [],
+			"headers": [],
+			"responses": [],
+			"content": [],
+			"auth": [],
+			"endpoints": [],
+			"serverScript": "fab5c4e2-9074-ed11-9f60-000d3aba46be"
+		},
+		{
+			"id": "2d123de6-457e-4d7e-ea61-12e2ef5c1f11",
+			"method": "POST",
+			"path": "/Hide",
+			"description": "",
+			"parameters": [],
+			"headers": [],
+			"responses": [],
+			"content": [],
+			"auth": [],
+			"endpoints": [],
+			"serverScript": "7f7b7f91-c075-ed11-9f60-000d3aba46be"
+		},
+		{
+			"id": "bb5144e9-f251-4709-f0df-8538515fe50e",
+			"method": "GET",
+			"path": "/checkHidden",
+			"description": "",
+			"parameters": [
+				{
+					"name": "id",
+					"description": "",
+					"required": true,
+					"inPath": false,
+					"value": "",
+					"default": "",
+					"example": ""
+				}
+			],
+			"headers": [],
+			"responses": [],
+			"content": [],
+			"auth": [],
+			"endpoints": [],
+			"serverScript": "2d1cfc6f-92b7-ed11-a8e0-000d3aba7851"
+		},
+		{
+			"id": "dcbb30b6-4565-476d-f282-2846138dd453",
+			"method": "POST",
+			"path": "/resetHidden",
+			"description": "",
+			"parameters": [
+				{
+					"name": "id",
+					"description": "",
+					"required": true,
+					"inPath": false,
+					"value": "",
+					"default": "",
+					"example": ""
+				}
+			],
+			"headers": [],
+			"responses": [],
+			"content": [],
+			"auth": [],
+			"endpoints": [],
+			"serverScript": "311cfc6f-92b7-ed11-a8e0-000d3aba7851"
+		}
+	],
+	"definitions": [],
+	"documentation": [],
+	"name": "WhatsNew",
+	"endpoint": "/api/serverscript/whatsnew",
+	"ver": "23.8.8.147",
+	"version": null,
+	"description": null,
+	"mediaType": null,
+	"securitySchemes": null,
+	"swaggerURI": null,
+	"swaggerSystem": null,
+	"apiType": "script",
+	"about": null,
+	"enableProxy": false,
+	"restrictAccess": false,
+	"enableTrace": false,
+	"enableIDE": true,
+	"internalAPI": false,
+	"isPublic": false,
+	"tlsAllowUntrusted": false,
+	"useOwnProcess": false,
+	"package": "fc50f7c2-4151-ed11-819c-000d3aba7f72",
+	"apiGroup": null,
+	"apiFormat": 0,
+	"roles": []
+}

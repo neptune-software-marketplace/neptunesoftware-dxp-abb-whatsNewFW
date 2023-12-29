@@ -1,0 +1,225 @@
+{
+	"id": "16fb5c5b-9274-ed11-9f60-000d3aba46be",
+	"createdAt": "2022-12-05T11:45:47.546Z",
+	"createdBy": "carlos.pires@neptune-software.com",
+	"settings": {
+		"properties": {
+			"report": {
+				"showIcon": true,
+				"iconButtonClose": "",
+				"textButtonClose": "Close",
+				"typeButtonClose": "Transparent",
+				"iconButtonCreate": "",
+				"textButtonCreate": "Create",
+				"typeButtonCreate": "Emphasized",
+				"iconButtonExport": "sap-icon://excel-attachment",
+				"textButtonExport": "",
+				"typeButtonExport": "Transparent",
+				"iconButtonMultiSelect": "",
+				"textButtonMultiSelect": "MultiSelect",
+				"typeButtonMultiSelect": "Emphasized",
+				"iconButtonRun": "",
+				"textButtonRun": "Update",
+				"typeButtonRun": "Emphasized",
+				"iconButtonHeaderAction1": "",
+				"textButtonHeaderAction1": "Action 1",
+				"typeButtonHeaderAction1": "Emphasized",
+				"enableRun": true,
+				"enableCreate": true,
+				"enableClose": false,
+				"enableDelete": true,
+				"enableExport": false,
+				"enableMultiSelect": false,
+				"enableVariant": false,
+				"enableHeaderAction1": false,
+				"hideHeader": false,
+				"autoRun": true,
+				"autoRunFocus": false,
+				"searchLabel": "Search",
+				"searchPlaceholder": "",
+				"_navigationCreate": {
+					"destinationType": "F",
+					"openAs": "P",
+					"butType": "Accept",
+					"destinationTargetF": "1d252237-b274-ed11-9f60-000d3aba46be",
+					"keyField": [
+						{
+							"fieldName": "property",
+							"key": "property",
+							"value": ""
+						},
+						{
+							"fieldName": "property2",
+							"key": "property2",
+							"value": ""
+						},
+						{
+							"fieldName": "propertyType",
+							"key": "propertyType",
+							"value": ""
+						}
+					]
+				},
+				"actionButtonLeft": false,
+				"iconButtonImport": "sap-icon://fa-solid/file-import",
+				"textButtonImport": "",
+				"typeButtonImport": "Transparent",
+				"enableImport": false
+			},
+			"form": {
+				"enableCompact": false,
+				"headerExpanded": true
+			},
+			"table": {
+				"enablePagination": false,
+				"paginationRows": 25,
+				"action1Text": "",
+				"action1Type": "Transparent",
+				"action2Text": "",
+				"action2Type": "Transparent",
+				"action3Text": "",
+				"action3Type": "Transparent",
+				"alternateRowColors": false,
+				"enableCompact": false,
+				"enableAction1": false,
+				"enableAction2": false,
+				"enableAction3": false,
+				"fixedLayout": false,
+				"inset": false,
+				"paginationShowSelection": false,
+				"showSeparators": "All"
+			}
+		},
+		"fieldCatalog": [
+			{
+				"name": "createdAt",
+				"label": "Created At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdBy",
+				"label": "Created By",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "property",
+				"label": "property",
+				"type": "smalltext",
+				"usage": "BOTH"
+			},
+			{
+				"name": "property2",
+				"label": "property2",
+				"type": "smalltext",
+				"usage": "BOTH"
+			},
+			{
+				"name": "propertyType",
+				"label": "propertyType",
+				"type": "smalltext",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedAt",
+				"label": "Updated At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedBy",
+				"label": "Updated By",
+				"type": "text",
+				"usage": "BOTH"
+			}
+		],
+		"fieldsSel": [
+			{
+				"visible": false,
+				"name": "propertyType",
+				"text": "propertyType",
+				"fieldPos": 1,
+				"default": "Application"
+			}
+		],
+		"fieldsRun": [
+			{
+				"enableFilter": true,
+				"enableSort": true,
+				"visible": false,
+				"name": "propertyType",
+				"text": "propertyType",
+				"fieldPos": 2,
+				"valueType": "Fixed",
+				"valueFixed": "Application"
+			},
+			{
+				"enableFilter": true,
+				"enableSort": true,
+				"visible": true,
+				"name": "property",
+				"text": "AppID Name",
+				"fieldPos": 3
+			},
+			{
+				"enableFilter": true,
+				"enableSort": true,
+				"visible": true,
+				"name": "property2",
+				"text": "AppID Description ",
+				"fieldPos": 4
+			}
+		],
+		"defaultVariant": {
+			"id": "5f1e0b8d-3939-4fef-8f73-bf11e3185288",
+			"colOrder": "key_a_to_z",
+			"rowOrder": "key_a_to_z",
+			"row": [],
+			"column": [],
+			"val": [],
+			"inclusions": {},
+			"exclusions": {}
+		},
+		"translation": {
+			"EN": {
+				"report": {
+					"title": "",
+					"subTitle": "",
+					"textButtonClose": "",
+					"textButtonCreate": "",
+					"textButtonExport": "",
+					"textButtonMultiSelect": "",
+					"textButtonRun": "",
+					"textButtonHeaderAction1": "",
+					"searchLabel": "",
+					"searchPlaceholder": ""
+				},
+				"form": {},
+				"table": {
+					"headerText": "",
+					"footerText": "",
+					"noDataText": ""
+				},
+				"fieldCatalog": {}
+			}
+		}
+	},
+	"name": "WhatsNew_configApps",
+	"description": "",
+	"group": "",
+	"type": "C",
+	"connectorid": "b5c0d22f-9274-ed11-9f60-000d3aba46be",
+	"scriptSel": null,
+	"scriptRun": null,
+	"tableid": null,
+	"ver": "22.12.5.1540",
+	"disabled": false,
+	"appType": "A",
+	"application": "planet9_adaptive_list",
+	"package": "fc50f7c2-4151-ed11-819c-000d3aba7f72",
+	"roles": [],
+	"scriptSelObj": null,
+	"scriptRunObj": null,
+	"tableObj": null
+}

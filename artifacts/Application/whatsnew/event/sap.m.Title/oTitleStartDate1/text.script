@@ -1,0 +1,4 @@
+if (typeof startDate === "undefined" || startDate === null || startDate === "") { return; }  
+
+var formattedText = moment(startDate).fromNow();; 
+return formattedText;

@@ -1,0 +1,91 @@
+{
+	"id": "8015a5f9-7f97-ed11-9d7a-000d3aba7096",
+	"createdAt": "2023-01-18T22:32:44.200Z",
+	"createdBy": "carlos.pires@neptune-software.com",
+	"objects": [
+		{
+			"fieldNo": 99999,
+			"data": [
+				{
+					"fieldNo": "5ea3db4c-33c7-47d4-82f1-f81a82aaa5f9",
+					"fieldName": "namespace",
+					"fieldParent": 99999,
+					"fieldType": "neptune.Typescript",
+					"script": "file://script/neptune.Typescript/namespace.ts",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": []
+				}
+			]
+		},
+		{
+			"fieldNo": 99998,
+			"data": [
+				{
+					"fieldNo": "68caafad-4abd-4d65-de8e-44869e2815a4",
+					"fieldName": "moment.min.2.29.4.js",
+					"fieldParent": 99998,
+					"fieldType": "neptune.Script",
+					"script": "file://script/neptune.Script/moment.min.2.29.4.js.js",
+					"customComponent": false,
+					"filePath": "moment.min.2.29.4.js",
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": []
+				}
+			]
+		}
+	],
+	"componentInterface": {
+		"icon": "/public/icons/javascript.png",
+		"documentation": "<p>Origin of the library&nbsp;<a target=\"_blank\" href=\"https://github.com/moment/moment/\" alt=\"https://github.com/moment/moment/\">https://github.com/moment/moment/</a>​</p><p>Additional documentation on how to use:</p><p>​<a target=\"_blank\" href=\"https://momentjs.com/\" alt=\"https://momentjs.com/\">https://momentjs.com/</a>​<br></p>",
+		"containerId": null,
+		"attributes": [],
+		"topLevelObjects": [],
+		"containers": []
+	},
+	"ver": "23.12.29.1029",
+	"application": "lib_moment_momentv2x29x4",
+	"title": "",
+	"description": "https://github.com/moment/moment/",
+	"enableFileStorage": true,
+	"enableManifest": false,
+	"enableStylesheet": false,
+	"enableObfuscate": true,
+	"onlyRunLaunchpad": false,
+	"disabled": false,
+	"loadLaunchpadCode": null,
+	"loadApplicationCode": null,
+	"appType": "E",
+	"ui5_m": false,
+	"ui5_f": false,
+	"ui5_table": false,
+	"ui5_tnt": false,
+	"ui5_uxap": false,
+	"ui5_chart": false,
+	"ui5_theme": "sap_fiori_3",
+	"ui5_version": "",
+	"ui5_language": null,
+	"ui5_url": "",
+	"cus_theme": "",
+	"css": "",
+	"compiledCss": null,
+	"header": "<script src=\"/app/lib_moment_momentv2x29x4/moment.min.2.29.4.js\"></script>",
+	"manifest": "",
+	"globalScript": null,
+	"deleted": false,
+	"libHighchart": false,
+	"libHighmap": false,
+	"publicAccess": false,
+	"ui5_bootstrap": false,
+	"ui5_ionic": false,
+	"useV2AppHandler": false,
+	"compilerTarget": 3,
+	"tabWidth": null,
+	"printWidth": null,
+	"apis": [],
+	"package": "fc50f7c2-4151-ed11-819c-000d3aba7f72"
+}

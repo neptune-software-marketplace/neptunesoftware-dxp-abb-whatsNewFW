@@ -1,0 +1,34 @@
+{
+	"id": "6f33f403-9e53-ed11-819c-000d3aba7f72",
+	"createdAt": "2022-10-24T13:16:06.803Z",
+	"createdBy": "carlos.pires@neptune-software.com",
+	"fields": [
+		{
+			"id": "bd9a2489-9e16-4a3a-8dac-bae27a4ce5ac",
+			"fieldName": "propertyType",
+			"fieldType": "smalltext",
+			"isUnique": false
+		},
+		{
+			"id": "f73fdd19-5568-41f6-bd38-70e5609b3b96",
+			"fieldName": "property",
+			"fieldType": "smalltext"
+		},
+		{
+			"id": "47314a4a-57b8-4684-b075-cecb992ecddc",
+			"fieldName": "property2",
+			"fieldType": "smalltext",
+			"isUnique": false
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "whatsnew_config",
+	"description": "Config table for the What's new framework",
+	"ver": "23.12.29.103",
+	"enableAudit": false,
+	"includeDataInPackage": false,
+	"package": "fc50f7c2-4151-ed11-819c-000d3aba7f72",
+	"rolesRead": [],
+	"rolesWrite": []
+}

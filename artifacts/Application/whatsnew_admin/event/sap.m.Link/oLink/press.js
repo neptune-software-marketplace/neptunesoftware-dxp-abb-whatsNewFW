@@ -1,0 +1,2 @@
+
+window.open(this.getHref());

@@ -1,0 +1,26 @@
+{
+	"id": "311cfc6f-92b7-ed11-a8e0-000d3aba7851",
+	"createdAt": "2023-02-28T18:05:19.260Z",
+	"createdBy": "carlos.pires@neptune-software.com",
+	"globalScripts": [],
+	"externalModules": [],
+	"entitySets": [
+		{
+			"id": "59454518-4551-ED11-819C-000D3ABA7F72",
+			"name": "whatsnew_hide",
+			"contextname": "whatsnew_hide"
+		}
+	],
+	"apis": [],
+	"name": "resetHidden",
+	"ver": "23.2.28.1829",
+	"description": null,
+	"content": "file:///content.ts",
+	"useAsGlobalScript": false,
+	"transpiledContent": "file:///transpiledContent.ts",
+	"lastRunSuccessful": false,
+	"isTypescript": false,
+	"language": "typescript",
+	"jsscriptGroup": "cdc36b1c-fc58-ed11-819c-000d3aba42c8",
+	"package": "fc50f7c2-4151-ed11-819c-000d3aba7f72"
+}

@@ -1,0 +1,169 @@
+{
+	"id": "fc50f7c2-4151-ed11-819c-000d3aba7f72",
+	"createdAt": "2022-10-21T13:10:41.436Z",
+	"createdBy": "carlos.pires@neptune-software.com",
+	"git": {
+		"targetServers": [],
+		"remote": "https://github.com/neptune-software-marketplace/neptunesoftware-dxp-abb-whatsNewFW"
+	},
+	"name": "com.neptune-software.devt.whatsNew",
+	"description": "What's New framework",
+	"ver": "23.12.29.1032",
+	"enableCICD": true,
+	"apps": [
+		{
+			"id": "e655153c-9d53-ed11-819c-000d3aba7f72",
+			"application": "whatsnew_admin",
+			"title": "",
+			"description": ""
+		},
+		{
+			"id": "80b76e89-4951-ed11-819c-000d3aba7f72",
+			"application": "whatsnew",
+			"title": "",
+			"description": ""
+		},
+		{
+			"id": "8015a5f9-7f97-ed11-9d7a-000d3aba7096",
+			"application": "lib_moment_momentv2x29x4",
+			"title": "",
+			"description": "https://github.com/moment/moment/"
+		}
+	],
+	"api": [
+		{
+			"id": "59fb8788-fd58-ed11-819c-000d3aba42c8",
+			"name": "WhatsNew",
+			"description": null,
+			"apiGroup": null
+		}
+	],
+	"odataSource": [],
+	"odataMock": [],
+	"dictionary": [
+		{
+			"id": "a8507be3-4351-ed11-819c-000d3aba7f72",
+			"name": "whatsnew_main",
+			"description": "What's New Main"
+		},
+		{
+			"id": "6f33f403-9e53-ed11-819c-000d3aba7f72",
+			"name": "whatsnew_config",
+			"description": "Config table for the What's new framework"
+		},
+		{
+			"id": "59454518-4551-ed11-819c-000d3aba7f72",
+			"name": "whatsnew_hide",
+			"description": "Message already shown, and the user select to no show again"
+		}
+	],
+	"jsclass": [
+		{
+			"id": "fab5c4e2-9074-ed11-9f60-000d3aba46be",
+			"name": "GetApps",
+			"description": null
+		},
+		{
+			"id": "f3c21ad6-2d59-ed11-819c-000d3aba42c8",
+			"name": "GetMessage",
+			"description": null
+		},
+		{
+			"id": "7f7b7f91-c075-ed11-9f60-000d3aba46be",
+			"name": "HideMessages",
+			"description": null
+		},
+		{
+			"id": "53757f26-fc58-ed11-819c-000d3aba42c8",
+			"name": "SaveMessage ",
+			"description": null
+		},
+		{
+			"id": "311cfc6f-92b7-ed11-a8e0-000d3aba7851",
+			"name": "resetHidden",
+			"description": null
+		},
+		{
+			"id": "2d1cfc6f-92b7-ed11-a8e0-000d3aba7851",
+			"name": "checkHidden",
+			"description": null
+		}
+	],
+	"jsscript_group": [
+		{
+			"id": "cdc36b1c-fc58-ed11-819c-000d3aba42c8",
+			"name": "WhatsNew",
+			"description": null
+		}
+	],
+	"theme": [],
+	"pdf": [],
+	"rulesengine": [],
+	"reports": [
+		{
+			"id": "8b952230-5575-ed11-9f60-000d3aba46be",
+			"name": "whatsNew_Message_list",
+			"description": "",
+			"application": "planet9_adaptive_list"
+		},
+		{
+			"id": "1d252237-b274-ed11-9f60-000d3aba46be",
+			"name": "WhatsNew_configApps_create",
+			"description": "",
+			"application": "planet9_adaptive_edit"
+		},
+		{
+			"id": "16fb5c5b-9274-ed11-9f60-000d3aba46be",
+			"name": "WhatsNew_configApps",
+			"description": "",
+			"application": "planet9_adaptive_list"
+		}
+	],
+	"api_authentication": [],
+	"api_group": [],
+	"tile": [
+		{
+			"id": "9ed841f1-3b59-ed11-819c-000d3aba42c8",
+			"description": null,
+			"name": "Admin - WhatsNew"
+		},
+		{
+			"id": "39102447-b574-ed11-9f60-000d3aba46be",
+			"description": null,
+			"name": "Admin - WhatsNew -  Configure app"
+		}
+	],
+	"category": [
+		{
+			"id": "459abb96-b574-ed11-9f60-000d3aba46be",
+			"description": null,
+			"name": "Administration: Whats New"
+		}
+	],
+	"launchpad": [],
+	"certificates": [],
+	"role": [],
+	"systems": [],
+	"doc": [],
+	"wf_notifications": [],
+	"department": [],
+	"script_scheduler": [],
+	"wf_definition": [],
+	"connector": [
+		{
+			"id": "b5c0d22f-9274-ed11-9f60-000d3aba46be",
+			"name": "WhatsNew_ConfigApps",
+			"description": "Create the App configuration "
+		},
+		{
+			"id": "a3376afd-5475-ed11-9f60-000d3aba46be",
+			"name": "WhatsNew_Message_List",
+			"description": "List of all the messages "
+		}
+	],
+	"events": [],
+	"media_library": [],
+	"code_snippets": [],
+	"wf_determination": [],
+	"wf_taskaction": []
+}

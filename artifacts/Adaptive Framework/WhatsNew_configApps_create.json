@@ -1,0 +1,147 @@
+{
+	"id": "1d252237-b274-ed11-9f60-000d3aba46be",
+	"createdAt": "2022-12-05T15:34:00.013Z",
+	"createdBy": "carlos.pires@neptune-software.com",
+	"settings": {
+		"properties": {
+			"report": {
+				"showIcon": true,
+				"actionButtonLeft": false,
+				"iconButtonClose": "",
+				"textButtonClose": "Close",
+				"typeButtonClose": "Transparent",
+				"iconButtonSave": "",
+				"textButtonSave": "Save",
+				"textToastSave": "Saved",
+				"typeButtonSave": "Emphasized",
+				"iconButtonDelete": "",
+				"textButtonDelete": "Delete",
+				"textToastDelete": "Deleted",
+				"typeButtonDelete": "Reject",
+				"iconButtonAttachment": "",
+				"textButtonAttachment": "Add Attachment",
+				"typeButtonAttachment": "Transparent",
+				"tab0Text": "General",
+				"tabAText": "Attachment",
+				"tab1Text": "Tab 1",
+				"tab2Text": "Tab 2",
+				"tab3Text": "Tab 3",
+				"tab4Text": "Tab 4",
+				"tab5Text": "Tab 5",
+				"enableClose": true,
+				"enableSave": true,
+				"enableDelete": false,
+				"enableAttachment": false,
+				"enableTab1": false,
+				"enableTab2": false,
+				"enableTab3": false,
+				"enableTab4": false,
+				"enableTab5": false,
+				"enableUppercase": false,
+				"enablePadding": true
+			},
+			"form": {
+				"enableCompact": false,
+				"enableCentered": true
+			},
+			"table": {}
+		},
+		"fieldCatalog": [
+			{
+				"name": "createdAt",
+				"label": "Created At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdBy",
+				"label": "Created By",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "property",
+				"label": "property",
+				"type": "smalltext",
+				"usage": "BOTH"
+			},
+			{
+				"name": "property2",
+				"label": "property2",
+				"type": "smalltext",
+				"usage": "BOTH"
+			},
+			{
+				"name": "propertyType",
+				"label": "propertyType",
+				"type": "smalltext",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedAt",
+				"label": "Updated At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedBy",
+				"label": "Updated By",
+				"type": "text",
+				"usage": "BOTH"
+			}
+		],
+		"fieldsSel": [
+			{
+				"editable": false,
+				"visible": false,
+				"name": "propertyType",
+				"text": "propertyType",
+				"fieldPos": 1
+			},
+			{
+				"editable": true,
+				"visible": true,
+				"name": "property",
+				"text": "AppID Name",
+				"fieldPos": 2,
+				"required": true
+			},
+			{
+				"editable": true,
+				"visible": true,
+				"name": "property2",
+				"text": "AppID Description ",
+				"fieldPos": 3,
+				"required": true
+			}
+		],
+		"fieldsRun": [],
+		"defaultVariant": {
+			"id": "965265bf-994f-4238-c84c-7905266eb6f4",
+			"colOrder": "key_a_to_z",
+			"rowOrder": "key_a_to_z",
+			"row": [],
+			"column": [],
+			"val": [],
+			"inclusions": {},
+			"exclusions": {}
+		}
+	},
+	"name": "WhatsNew_configApps_create",
+	"description": "",
+	"group": "",
+	"type": "C",
+	"connectorid": "b5c0d22f-9274-ed11-9f60-000d3aba46be",
+	"scriptSel": null,
+	"scriptRun": null,
+	"tableid": null,
+	"ver": "22.12.5.1535",
+	"disabled": false,
+	"appType": "A",
+	"application": "planet9_adaptive_edit",
+	"package": "fc50f7c2-4151-ed11-819c-000d3aba7f72",
+	"roles": [],
+	"scriptSelObj": null,
+	"scriptRunObj": null,
+	"tableObj": null
+}

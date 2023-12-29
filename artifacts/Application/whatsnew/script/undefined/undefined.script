@@ -1,0 +1,30 @@
+.nepWNCarousel {
+  border-radius: 0.75rem;
+}
+
+.nepWNPanel {
+  padding: 0.2rem;
+}
+
+.nepWNPanel .sapMPanelContent {
+  border-radius: 0.55rem;
+  /* background-color: white; */
+}
+
+.nepWNPanel .sapMPanelHdr {
+  border-radius: 0.55rem;
+  /* background-color: white; */
+}
+
+.nepWNTextArea .sapMFT {
+  max-height: 140px;
+}
+
+.neoWnCarouselImage {
+  max-height: 200px;
+  max-width: 300px;
+}
+
+.nepWNLayer {
+  z-index: 999 !important;
+}

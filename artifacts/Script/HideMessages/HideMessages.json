@@ -1,0 +1,26 @@
+{
+	"id": "7f7b7f91-c075-ed11-9f60-000d3aba46be",
+	"createdAt": "2022-12-06T23:49:06.353Z",
+	"createdBy": "carlos.pires@neptune-software.com",
+	"globalScripts": [],
+	"externalModules": [],
+	"entitySets": [
+		{
+			"id": "59454518-4551-ED11-819C-000D3ABA7F72",
+			"name": "whatsnew_hide",
+			"contextname": "whatsnew_hide"
+		}
+	],
+	"apis": [],
+	"name": "HideMessages",
+	"ver": "22.12.7.010",
+	"description": null,
+	"content": "file:///content.ts",
+	"useAsGlobalScript": false,
+	"transpiledContent": "file:///transpiledContent.ts",
+	"lastRunSuccessful": false,
+	"isTypescript": false,
+	"language": "typescript",
+	"jsscriptGroup": "cdc36b1c-fc58-ed11-819c-000d3aba42c8",
+	"package": "fc50f7c2-4151-ed11-819c-000d3aba7f72"
+}

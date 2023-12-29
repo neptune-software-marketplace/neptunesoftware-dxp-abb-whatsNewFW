@@ -1,0 +1,28 @@
+.nepWNSimpleForm .sapUiRFLContainer {
+  overflow: visible;
+}
+
+.nepWNCarousel {
+  border-radius: 0.75rem;
+}
+
+.nepWNPanel {
+  padding: 0.2rem;
+}
+
+.nepWNPanel .sapMPanelContent {
+  border-radius: 0.55rem;
+}
+
+.nepWNPanel .sapMPanelHdr {
+  border-radius: 0.55rem;
+}
+
+.nepWNTextArea .sapMFT {
+  max-height: 140px;
+}
+
+.neoWnCarouselImage {
+  max-height: 200px;
+  max-width: 300px;
+}

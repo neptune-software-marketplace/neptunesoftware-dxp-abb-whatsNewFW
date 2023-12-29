@@ -1,0 +1,26 @@
+{
+	"id": "fab5c4e2-9074-ed11-9f60-000d3aba46be",
+	"createdAt": "2022-12-05T11:35:15.683Z",
+	"createdBy": "carlos.pires@neptune-software.com",
+	"globalScripts": [],
+	"externalModules": [],
+	"entitySets": [
+		{
+			"id": "6F33F403-9E53-ED11-819C-000D3ABA7F72",
+			"name": "whatsnew_config",
+			"contextname": "whatsnew_config"
+		}
+	],
+	"apis": [],
+	"name": "GetApps",
+	"ver": "22.12.5.1751",
+	"description": null,
+	"content": "file:///content.ts",
+	"useAsGlobalScript": false,
+	"transpiledContent": "file:///transpiledContent.ts",
+	"lastRunSuccessful": true,
+	"isTypescript": false,
+	"language": "typescript",
+	"jsscriptGroup": "cdc36b1c-fc58-ed11-819c-000d3aba42c8",
+	"package": "fc50f7c2-4151-ed11-819c-000d3aba7f72"
+}
