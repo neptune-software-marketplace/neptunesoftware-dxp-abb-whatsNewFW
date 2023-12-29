@@ -128,7 +128,7 @@
 	"documentation": [],
 	"name": "WhatsNew",
 	"endpoint": "/api/serverscript/whatsnew",
-	"ver": "23.8.8.147",
+	"ver": "23.12.29.1054",
 	"version": null,
 	"description": null,
 	"mediaType": null,
@@ -146,7 +146,7 @@
 	"tlsAllowUntrusted": false,
 	"useOwnProcess": false,
 	"package": "fc50f7c2-4151-ed11-819c-000d3aba7f72",
-	"apiGroup": null,
+	"apiGroup": "2144e09d-38a6-ee11-8925-000d3ab39531",
 	"apiFormat": 0,
 	"roles": []
 }

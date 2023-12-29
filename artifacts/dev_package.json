@@ -35,7 +35,7 @@
 			"id": "59fb8788-fd58-ed11-819c-000d3aba42c8",
 			"name": "WhatsNew",
 			"description": null,
-			"apiGroup": null
+			"apiGroup": "2144e09d-38a6-ee11-8925-000d3ab39531"
 		}
 	],
 	"odataSource": [],
@@ -120,7 +120,13 @@
 		}
 	],
 	"api_authentication": [],
-	"api_group": [],
+	"api_group": [
+		{
+			"id": "2144e09d-38a6-ee11-8925-000d3ab39531",
+			"name": "What's New",
+			"description": "What's New Framework"
+		}
+	],
 	"tile": [
 		{
 			"id": "9ed841f1-3b59-ed11-819c-000d3aba42c8",
@@ -163,7 +169,13 @@
 	],
 	"events": [],
 	"media_library": [],
-	"code_snippets": [],
+	"code_snippets": [
+		{
+			"id": "66c92bd8-39a6-ee11-8925-000d3ab39531",
+			"name": "Open What's new",
+			"description": "Open the What's new inside an app"
+		}
+	],
 	"wf_determination": [],
 	"wf_taskaction": []
 }

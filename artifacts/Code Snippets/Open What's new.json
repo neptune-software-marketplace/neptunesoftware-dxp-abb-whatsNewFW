@@ -1,0 +1,26 @@
+{
+	"id": "66c92bd8-39a6-ee11-8925-000d3ab39531",
+	"createdAt": "2023-12-29T11:03:07.553Z",
+	"createdBy": "carlos.pires@neptune-software.com",
+	"metadata": [],
+	"name": "Open What's new",
+	"description": "Open the What's new inside an app",
+	"group": "Neptune What's new",
+	"content": [
+		"==OBJECT STRING==",
+		"// This code triggers the What's New framework to check if a new message exists ",
+		"// for the selected key. ",
+		"// It's possible to have multiple keys per app or use the same key in multiple ",
+		"// apps.",
+		"// The key needs to be replaced by the desired value set on the AppID Name in ",
+		"// the configuration App.",
+		"",
+		"AppCache.Load(\"whatsnew\", {",
+		"    load: \"init\",",
+		"    startParams: {app: \" key \"}",
+		"});"
+	],
+	"enableIDE": true,
+	"enableServerScript": false,
+	"package": "fc50f7c2-4151-ed11-819c-000d3aba7f72"
+}
