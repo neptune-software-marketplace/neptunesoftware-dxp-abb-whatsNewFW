@@ -8,7 +8,7 @@
 	},
 	"name": "com.neptune-software.devt.whatsNew",
 	"description": "What's New framework",
-	"ver": "23.12.29.1032",
+	"ver": "23.12.29.1117",
 	"enableCICD": true,
 	"apps": [
 		{
@@ -168,7 +168,22 @@
 		}
 	],
 	"events": [],
-	"media_library": [],
+	"media_library": [
+		{
+			"id": "5147A656-45A6-EE11-8925-000D3AB39531",
+			"updatedAt": "2023-12-29T12:25:24.193Z",
+			"name": "WhatsNew",
+			"parent": "C7E620E7-D3C6-EC11-997E-DC9840109182",
+			"package": "FC50F7C2-4151-ED11-819C-000D3ABA7F72"
+		},
+		{
+			"id": "FC074895-45A6-EE11-8925-000D3AB39531",
+			"updatedAt": "2023-12-29T12:27:09.270Z",
+			"name": "WhatsNew",
+			"parent": null,
+			"package": "FC50F7C2-4151-ED11-819C-000D3ABA7F72"
+		}
+	],
 	"code_snippets": [
 		{
 			"id": "66c92bd8-39a6-ee11-8925-000d3ab39531",

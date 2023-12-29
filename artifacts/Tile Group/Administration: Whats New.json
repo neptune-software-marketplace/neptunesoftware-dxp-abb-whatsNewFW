@@ -69,13 +69,13 @@
 			"id": "9ed841f1-3b59-ed11-819c-000d3aba42c8",
 			"name": "Admin - WhatsNew",
 			"title": "WhatsNew",
-			"ver": "23.1.10.2331"
+			"ver": "23.12.29.1227"
 		},
 		{
 			"id": "39102447-b574-ed11-9f60-000d3aba46be",
 			"name": "Admin - WhatsNew -  Configure app",
 			"title": "Configure app",
-			"ver": "22.12.5.161"
+			"ver": "23.12.29.1228"
 		}
 	],
 	"tilegroups": []
