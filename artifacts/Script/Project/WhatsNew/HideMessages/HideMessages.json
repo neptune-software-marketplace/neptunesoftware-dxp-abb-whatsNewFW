@@ -1,6 +1,6 @@
 {
-	"id": "311cfc6f-92b7-ed11-a8e0-000d3aba7851",
-	"createdAt": "2023-02-28T18:05:19.260Z",
+	"id": "7f7b7f91-c075-ed11-9f60-000d3aba46be",
+	"createdAt": "2022-12-06T23:49:06.353Z",
 	"createdBy": "carlos.pires@neptune-software.com",
 	"globalScripts": [],
 	"externalModules": [],
@@ -13,7 +13,7 @@
 	],
 	"agents": [],
 	"apis": [],
-	"name": "resetHidden",
+	"name": "HideMessages",
 	"ver": "26.09.14.1712",
 	"description": null,
 	"folder": null,
@@ -23,10 +23,5 @@
 	"isTypescript": false,
 	"language": "typescript",
 	"jsscriptGroup": "cdc36b1c-fc58-ed11-819c-000d3aba42c8",
-	"package": "fc50f7c2-4151-ed11-819c-000d3aba7f72",
-	"jsscriptGroupObj": {
-		"id": "cdc36b1c-fc58-ed11-819c-000d3aba42c8",
-		"name": "WhatsNew",
-		"ver": "26.09.14.1722"
-	}
+	"package": "fc50f7c2-4151-ed11-819c-000d3aba7f72"
 }

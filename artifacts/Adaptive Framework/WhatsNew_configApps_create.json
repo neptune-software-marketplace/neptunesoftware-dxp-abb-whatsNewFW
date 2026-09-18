@@ -38,7 +38,23 @@
 				"enableTab4": false,
 				"enableTab5": false,
 				"enableUppercase": false,
-				"enablePadding": true
+				"enablePadding": true,
+				"confirmationCheckCreate": false,
+				"confirmationCheckUpdate": false,
+				"iconButtonEdit": "",
+				"textButtonEdit": "Edit",
+				"typeButtonEdit": "Emphasized",
+				"iconButtonDisplay": "",
+				"textButtonDisplay": "Display",
+				"typeButtonDisplay": "Emphasized",
+				"enableEditDisplay": false,
+				"titleConfirmCreate": "Create entry",
+				"textConfirmCreate": "Are you sure you want to create this entry?",
+				"titleConfirmUpdate": "Update entry",
+				"textConfirmUpdate": "Are you sure you want to update this entry?",
+				"textConfirmDelete": "Do you want to delete this entry? ",
+				"titleConfirmDelete": "Delete ",
+				"requiredFieldsToast": "Please fill in all the required fields"
 			},
 			"form": {
 				"enableCompact": false,
@@ -125,7 +141,8 @@
 			"val": [],
 			"inclusions": {},
 			"exclusions": {}
-		}
+		},
+		"table": "whatsnew_config"
 	},
 	"name": "WhatsNew_configApps_create",
 	"description": "",
@@ -135,13 +152,14 @@
 	"scriptSel": null,
 	"scriptRun": null,
 	"tableid": null,
-	"ver": "22.12.5.1535",
+	"ver": "26.09.15.1047",
 	"disabled": false,
 	"appType": "A",
-	"application": "planet9_adaptive_edit",
+	"application": "neptunedxp_adaptive_edit",
 	"package": "fc50f7c2-4151-ed11-819c-000d3aba7f72",
 	"roles": [],
 	"scriptSelObj": null,
 	"scriptRunObj": null,
-	"tableObj": null
+	"tableObj": null,
+	"i18n": []
 }

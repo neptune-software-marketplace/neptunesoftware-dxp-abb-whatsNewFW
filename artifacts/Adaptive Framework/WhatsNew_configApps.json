@@ -64,11 +64,25 @@
 				"iconButtonImport": "sap-icon://fa-solid/file-import",
 				"textButtonImport": "",
 				"typeButtonImport": "Transparent",
-				"enableImport": false
+				"enableImport": false,
+				"iconButtonEdit": "",
+				"textButtonEdit": "Edit",
+				"typeButtonEdit": "Emphasized",
+				"iconButtonDisplay": "",
+				"textButtonDisplay": "Display",
+				"typeButtonDisplay": "Emphasized",
+				"enableEditDisplay": false,
+				"requiredFieldsToast": "Please fill in all required fields",
+				"textConfirmDelete": "Do you want to delete this entry? ",
+				"titleConfirmDelete": "Delete",
+				"odataValueList": "Field does not have any OData ValueListReference"
 			},
 			"form": {
 				"enableCompact": false,
-				"headerExpanded": true
+				"headerExpanded": true,
+				"enableExpandHeader": true,
+				"headerPreserveState": false,
+				"enableSearchWildcard": false
 			},
 			"table": {
 				"enablePagination": false,
@@ -87,7 +101,14 @@
 				"fixedLayout": false,
 				"inset": false,
 				"paginationShowSelection": false,
-				"showSeparators": "All"
+				"showSeparators": "All",
+				"enableAutoPopin": false,
+				"enableAction4": false,
+				"enableAction5": false,
+				"action4Text": "",
+				"action4Type": "Transparent",
+				"action5Text": "",
+				"action5Type": "Transparent"
 			}
 		},
 		"fieldCatalog": [
@@ -181,29 +202,8 @@
 			"inclusions": {},
 			"exclusions": {}
 		},
-		"translation": {
-			"EN": {
-				"report": {
-					"title": "",
-					"subTitle": "",
-					"textButtonClose": "",
-					"textButtonCreate": "",
-					"textButtonExport": "",
-					"textButtonMultiSelect": "",
-					"textButtonRun": "",
-					"textButtonHeaderAction1": "",
-					"searchLabel": "",
-					"searchPlaceholder": ""
-				},
-				"form": {},
-				"table": {
-					"headerText": "",
-					"footerText": "",
-					"noDataText": ""
-				},
-				"fieldCatalog": {}
-			}
-		}
+		"translation": {},
+		"table": "whatsnew_config"
 	},
 	"name": "WhatsNew_configApps",
 	"description": "",
@@ -213,13 +213,14 @@
 	"scriptSel": null,
 	"scriptRun": null,
 	"tableid": null,
-	"ver": "22.12.5.1540",
+	"ver": "26.09.15.1043",
 	"disabled": false,
 	"appType": "A",
-	"application": "planet9_adaptive_list",
+	"application": "neptunedxp_adaptive_list",
 	"package": "fc50f7c2-4151-ed11-819c-000d3aba7f72",
 	"roles": [],
 	"scriptSelObj": null,
 	"scriptRunObj": null,
-	"tableObj": null
+	"tableObj": null,
+	"i18n": []
 }

@@ -6,26 +6,32 @@
 	"externalModules": [],
 	"entitySets": [
 		{
-			"id": "A8507BE3-4351-ED11-819C-000D3ABA7F72",
+			"id": "8c47f272-e533-40c0-bfdd-2cf3adde1e5f",
 			"name": "whatsnew_main",
 			"contextname": "whatsnew_main"
 		},
 		{
-			"id": "59454518-4551-ED11-819C-000D3ABA7F72",
+			"id": "1ac8d8db-d8fe-4048-b444-ed5587451973",
 			"name": "whatsnew_hide",
 			"contextname": "whatsnew_hide"
 		}
 	],
+	"agents": [],
 	"apis": [],
 	"name": "GetMessage",
-	"ver": "23.12.29.104",
+	"ver": "26.09.14.1722",
 	"description": null,
+	"folder": null,
 	"content": "file:///content.ts",
 	"useAsGlobalScript": false,
-	"transpiledContent": "file:///transpiledContent.ts",
 	"lastRunSuccessful": true,
 	"isTypescript": true,
 	"language": "typescript",
 	"jsscriptGroup": "cdc36b1c-fc58-ed11-819c-000d3aba42c8",
-	"package": "fc50f7c2-4151-ed11-819c-000d3aba7f72"
+	"package": "fc50f7c2-4151-ed11-819c-000d3aba7f72",
+	"jsscriptGroupObj": {
+		"id": "cdc36b1c-fc58-ed11-819c-000d3aba42c8",
+		"name": "WhatsNew",
+		"ver": "26.09.14.1722"
+	}
 }

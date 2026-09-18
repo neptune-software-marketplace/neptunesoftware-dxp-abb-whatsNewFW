@@ -49,7 +49,9 @@
 					"content": []
 				}
 			],
-			"serverScript": "f3c21ad6-2d59-ed11-819c-000d3aba42c8"
+			"serverScript": "f3c21ad6-2d59-ed11-819c-000d3aba42c8",
+			"enableTrace": false,
+			"enableCredentials": false
 		},
 		{
 			"id": "b58e41a7-556a-4c55-b4dc-c4011f37e081",
@@ -128,7 +130,7 @@
 	"documentation": [],
 	"name": "WhatsNew",
 	"endpoint": "/api/serverscript/whatsnew",
-	"ver": "23.12.29.1054",
+	"ver": "26.09.14.1730",
 	"version": null,
 	"description": null,
 	"mediaType": null,
@@ -136,11 +138,13 @@
 	"swaggerURI": null,
 	"swaggerSystem": null,
 	"apiType": "script",
-	"about": null,
+	"about": "<p><br></p>",
 	"enableProxy": false,
+	"forwardProxy": null,
 	"restrictAccess": false,
 	"enableTrace": false,
 	"enableIDE": true,
+	"enableScriptEditor": false,
 	"internalAPI": false,
 	"isPublic": false,
 	"tlsAllowUntrusted": false,

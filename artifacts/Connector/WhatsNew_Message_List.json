@@ -3,7 +3,7 @@
 	"createdAt": "2022-12-06T10:59:01.760Z",
 	"createdBy": "carlos.pires@neptune-software.com",
 	"settings": {
-		"tableid": "a8507be3-4351-ed11-819c-000d3aba7f72",
+		"tableid": "8c47f272-e533-40c0-bfdd-2cf3adde1e5f",
 		"hasDocumentation": false
 	},
 	"documentation": {},
@@ -11,7 +11,7 @@
 	"description": "List of all the messages ",
 	"group": null,
 	"type": "T",
-	"ver": "22.12.6.1059",
+	"ver": "26.09.15.1058",
 	"disabled": false,
 	"package": "fc50f7c2-4151-ed11-819c-000d3aba7f72"
 }

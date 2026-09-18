@@ -1,6 +1,10 @@
 if (xhr.responseJSON.length !== 0) {
     modeloListPreview.setData(xhr.responseJSON);
 
+    window.clearInterval(myInterval);
+    oCarouselPreview.destroyPages();
+    oHBox3.setVisible(false);
+
     $.each(xhr.responseJSON, function (i, data) {
         if (data.highlight === true) {
             let clone = oPageCarousel.clone();
@@ -10,49 +14,52 @@ if (xhr.responseJSON.length !== 0) {
             modeloclone.refresh();
             oCarouselPreview.addPage(clone);
             oHBox3.setVisible(true);
-            oScrollContainer.addEventDelegate({
-                onAfterRendering: function (e) {
-                    if (oHBox3.getVisible()) {
-                        oScrollContainer.setHeight(
-                            oDialog.getDomRef().clientHeight -
-                                oHBox.getDomRef().clientHeight -
-                                oHBox3.getDomRef().clientHeight -
-                                130 +
-                                "px"
-                        );
-                    } else {
-                        oScrollContainer.setHeight(
-                            oDialog.getDomRef().clientHeight -
-                                oHBox.getDomRef().clientHeight -
-                                130 +
-                                "px"
-                        );
-                    }
-                },
-            });
-            window.clearInterval(myInterval);
-            myInterval = setInterval(function () {
-                oCarouselPreview.next();
-            }, 5000);
         }
     });
 
-    oCarouselPreview.addEventDelegate({
-        onAfterRendering: function (e) {
-            let htmlElement = oCarouselPreview.getDomRef();
-            if (!htmlElement) return;
+    if (oCarouselPreview.getPages().length > 1) {
+        myInterval = setInterval(function () {
+            if (oCarouselPreview.getPages().length > 1) {
+                oCarouselPreview.next();
+            }
+        }, 5000);
+    }
 
-            htmlElement.addEventListener("mouseover", function (e) {
-                window.clearInterval(myInterval);
-            });
-            htmlElement.addEventListener("mouseleave", function (e) {
-                window.clearInterval(myInterval);
-                myInterval = setInterval(function () {
-                    oCarouselPreview.next();
-                }, 5000);
-            });
-        },
-    });
+    if (!window.whatsnewDelegatesBound) {
+        window.whatsnewDelegatesBound = true;
+
+        oScrollContainer.addEventDelegate({
+            onAfterRendering: function () {
+                if (!oDialog.getDomRef() || !oHBox.getDomRef()) return;
+                let height =
+                    oDialog.getDomRef().clientHeight - oHBox.getDomRef().clientHeight - 130;
+                if (oHBox3.getVisible() && oHBox3.getDomRef()) {
+                    height -= oHBox3.getDomRef().clientHeight;
+                }
+                oScrollContainer.setHeight(height + "px");
+            },
+        });
+
+        oCarouselPreview.addEventDelegate({
+            onAfterRendering: function () {
+                let htmlElement = oCarouselPreview.getDomRef();
+                if (!htmlElement || htmlElement._whatsnewHoverBound) return;
+                htmlElement._whatsnewHoverBound = true;
+
+                htmlElement.addEventListener("mouseover", function () {
+                    window.clearInterval(myInterval);
+                });
+                htmlElement.addEventListener("mouseleave", function () {
+                    window.clearInterval(myInterval);
+                    myInterval = setInterval(function () {
+                        if (oCarouselPreview.getPages().length > 1) {
+                            oCarouselPreview.next();
+                        }
+                    }, 5000);
+                });
+            },
+        });
+    }
 
     oDialog.open();
 }

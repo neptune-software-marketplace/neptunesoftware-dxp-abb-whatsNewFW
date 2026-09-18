@@ -4,6 +4,7 @@
 	"createdBy": "carlos.pires@neptune-software.com",
 	"name": "WhatsNew",
 	"description": null,
-	"ver": "22.10.31.912",
-	"package": "fc50f7c2-4151-ed11-819c-000d3aba7f72"
+	"ver": "26.09.14.1722",
+	"package": "fc50f7c2-4151-ed11-819c-000d3aba7f72",
+	"projectLogLevel": null
 }

@@ -1,0 +1,24 @@
+{
+	"id": "deccf975-cd7b-49c8-9e1f-b42700eadf6d",
+	"createdAt": "2026-09-15T09:01:41.000Z",
+	"createdBy": "admin",
+	"attributes": [],
+	"locales": [
+		{
+			"isoCode": "EN",
+			"locale": "en"
+		}
+	],
+	"name": "whatsnew",
+	"description": null,
+	"fallbackLocale": "EN",
+	"application": "whatsnew",
+	"ver": "26.09.16.1246",
+	"package": "fc50f7c2-4151-ed11-819c-000d3aba7f72",
+	"active": true,
+	"deleted": false,
+	"baseModelId": null,
+	"enhancedBy": [],
+	"baseModel": null,
+	"apps": []
+}

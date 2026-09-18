@@ -1,80 +1,88 @@
 {
-	"id": "a8507be3-4351-ed11-819c-000d3aba7f72",
-	"createdAt": "2022-10-21T13:25:55.436Z",
-	"createdBy": "carlos.pires@neptune-software.com",
+	"id": "8c47f272-e533-40c0-bfdd-2cf3adde1e5f",
+	"createdAt": "2026-09-14T15:50:54.000Z",
+	"createdBy": "admin",
 	"fields": [
 		{
-			"id": "bfe27e15-7d03-4b0d-99ac-20be4035c71f",
+			"id": "205e7994-ff15-49ef-b8d8-c4c1d57fb855",
 			"fieldName": "application",
 			"fieldType": "smalltext",
-			"description": "Application identifier where the info will be displayed ",
-			"isNullable": false
+			"isUnique": false,
+			"description": "Application identifier where the info will be displayed "
 		},
 		{
-			"id": "1abde5e9-3ad5-4a30-8e02-e19cb1955ea6",
+			"id": "887b7cc5-7006-42c3-cdd7-efaeaa7b2416",
 			"fieldName": "startDate",
 			"fieldType": "timestamp",
-			"isNullable": false,
+			"isUnique": false,
 			"description": "Start Date to show the message"
 		},
 		{
-			"id": "c7911bf0-df2f-49b8-ba98-632a567b5ccf",
+			"id": "7d661e29-6675-4a28-ce52-db1b4d2f568b",
 			"fieldName": "validUntil",
 			"fieldType": "timestamp",
-			"isNullable": false,
+			"isUnique": false,
 			"description": "Show this message until this date"
 		},
 		{
-			"id": "60dc4d2a-7e08-460f-9fec-8b8221121821",
+			"id": "06e56c8a-6d6a-4af6-d943-0054bd288439",
 			"fieldName": "messageTitle",
 			"fieldType": "smalltext",
+			"isUnique": false,
 			"description": "Message title"
 		},
 		{
-			"id": "e2350215-51ea-4834-cf68-7a093f702480",
+			"id": "19dcddd5-044b-4696-d296-35c25b2f46d1",
 			"fieldName": "message",
 			"fieldType": "text",
-			"isNullable": false,
+			"isUnique": false,
 			"description": "Message"
 		},
 		{
-			"id": "6285266f-6799-4219-b228-910af378c546",
+			"id": "2511ac1c-279a-4617-bacd-b83baa3b4532",
 			"fieldName": "mediaContent",
 			"fieldType": "text",
+			"isUnique": false,
 			"description": "Media to complement the Message if needed "
 		},
 		{
-			"id": "800312e4-1cac-4d68-e06e-c6b7aed91ea3",
+			"id": "830d4100-84c7-4361-f073-10f29f2bdbeb",
 			"fieldName": "mediaType",
 			"fieldType": "text",
+			"isUnique": false,
 			"description": "Media Type, Image or Video."
 		},
 		{
-			"id": "ceb47b68-b512-40fb-d262-65120d4fb6c4",
+			"id": "17830c21-9ebd-466e-b83e-d4f45994210d",
 			"fieldName": "url",
 			"fieldType": "text",
-			"description": "Url to complement the Message, if needed "
+			"isUnique": false,
+			"description": "Media Type, Image or Video."
 		},
 		{
-			"id": "c58ff9b7-f42f-4fe4-e672-2e0bdfd60e58",
+			"id": "011b8921-fd1f-4aa6-9a9e-d859072e7daa",
 			"fieldName": "highlight",
 			"fieldType": "boolean",
-			"description": "Highlight "
+			"isUnique": false,
+			"description": "Highlight"
 		},
 		{
-			"id": "3093e69f-b8a0-4159-bcde-261c2ba00eee",
+			"id": "0dbf6956-fdb0-4893-a03f-e0d62ab19a4c",
 			"fieldName": "draft",
-			"fieldType": "boolean"
+			"fieldType": "boolean",
+			"isUnique": false
 		}
 	],
 	"indices": [],
 	"foreignKeys": [],
+	"vectorStoreConfig": {},
 	"name": "whatsnew_main",
 	"description": "What's New Main",
-	"ver": "22.10.24.1611",
+	"ver": "26.09.14.1654",
 	"enableAudit": false,
 	"includeDataInPackage": false,
 	"package": "fc50f7c2-4151-ed11-819c-000d3aba7f72",
+	"generationStrategy": null,
 	"rolesRead": [],
 	"rolesWrite": []
 }

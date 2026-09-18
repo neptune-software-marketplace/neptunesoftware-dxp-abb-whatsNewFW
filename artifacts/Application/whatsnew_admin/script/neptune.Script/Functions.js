@@ -13,7 +13,7 @@ function refreshModels() {
 }
 
 function createEditor(content) {
-    oFlexBoxContainer.editor = SUNEDITOR.create(oFlexBoxContainer.getDomRef().id, {
+    oFlexBoxContainer.editor = SUNEDITOR.create(oFlexBoxContainer.getDomRef(), {
         showPathLabel: false,
         height: "185px",
         maxHeight: "185px",

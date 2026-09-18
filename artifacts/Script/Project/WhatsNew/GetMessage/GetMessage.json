@@ -1,10 +1,15 @@
 {
-	"id": "311cfc6f-92b7-ed11-a8e0-000d3aba7851",
-	"createdAt": "2023-02-28T18:05:19.260Z",
+	"id": "f3c21ad6-2d59-ed11-819c-000d3aba42c8",
+	"createdAt": "2022-10-31T15:08:12.876Z",
 	"createdBy": "carlos.pires@neptune-software.com",
 	"globalScripts": [],
 	"externalModules": [],
 	"entitySets": [
+		{
+			"id": "8c47f272-e533-40c0-bfdd-2cf3adde1e5f",
+			"name": "whatsnew_main",
+			"contextname": "whatsnew_main"
+		},
 		{
 			"id": "1ac8d8db-d8fe-4048-b444-ed5587451973",
 			"name": "whatsnew_hide",
@@ -13,20 +18,15 @@
 	],
 	"agents": [],
 	"apis": [],
-	"name": "resetHidden",
-	"ver": "26.09.14.1712",
+	"name": "GetMessage",
+	"ver": "26.09.14.1722",
 	"description": null,
 	"folder": null,
 	"content": "file:///content.ts",
 	"useAsGlobalScript": false,
-	"lastRunSuccessful": false,
-	"isTypescript": false,
+	"lastRunSuccessful": true,
+	"isTypescript": true,
 	"language": "typescript",
 	"jsscriptGroup": "cdc36b1c-fc58-ed11-819c-000d3aba42c8",
-	"package": "fc50f7c2-4151-ed11-819c-000d3aba7f72",
-	"jsscriptGroupObj": {
-		"id": "cdc36b1c-fc58-ed11-819c-000d3aba42c8",
-		"name": "WhatsNew",
-		"ver": "26.09.14.1722"
-	}
+	"package": "fc50f7c2-4151-ed11-819c-000d3aba7f72"
 }

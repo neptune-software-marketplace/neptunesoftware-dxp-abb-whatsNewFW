@@ -65,6 +65,7 @@
 	"ui5_table": false,
 	"ui5_tnt": false,
 	"ui5_uxap": false,
+	"ui5_integration": false,
 	"ui5_chart": false,
 	"ui5_theme": "sap_fiori_3",
 	"ui5_version": "",
@@ -86,6 +87,9 @@
 	"compilerTarget": 3,
 	"tabWidth": null,
 	"printWidth": null,
+	"generateVersionOnActivation": false,
+	"activationHistoryCount": 0,
+	"package": "fc50f7c2-4151-ed11-819c-000d3aba7f72",
 	"apis": [],
-	"package": "fc50f7c2-4151-ed11-819c-000d3aba7f72"
+	"i18n": []
 }

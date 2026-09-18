@@ -4,12 +4,17 @@
 	"createdBy": "carlos.pires@neptune-software.com",
 	"git": {
 		"targetServers": [],
-		"remote": "https://github.com/neptune-software-marketplace/neptunesoftware-dxp-abb-whatsNewFW"
+		"remote": "https://github.com/neptune-software-marketplace/neptunesoftware-dxp-abb-whatsNewFW",
+		"branch": "DXP24"
 	},
 	"name": "com.neptune-software.devt.whatsNew",
 	"description": "What's New framework",
-	"ver": "23.12.29.1117",
+	"ver": "26.09.18.1503",
 	"enableCICD": true,
+	"internalReadOnly": false,
+	"oeVersion": null,
+	"excludeTemplateFiles": false,
+	"roles": [],
 	"apps": [
 		{
 			"id": "e655153c-9d53-ed11-819c-000d3aba7f72",
@@ -42,7 +47,7 @@
 	"odataMock": [],
 	"dictionary": [
 		{
-			"id": "a8507be3-4351-ed11-819c-000d3aba7f72",
+			"id": "8c47f272-e533-40c0-bfdd-2cf3adde1e5f",
 			"name": "whatsnew_main",
 			"description": "What's New Main"
 		},
@@ -52,7 +57,7 @@
 			"description": "Config table for the What's new framework"
 		},
 		{
-			"id": "59454518-4551-ed11-819c-000d3aba7f72",
+			"id": "1ac8d8db-d8fe-4048-b444-ed5587451973",
 			"name": "whatsnew_hide",
 			"description": "Message already shown, and the user select to no show again"
 		}
@@ -97,6 +102,7 @@
 		}
 	],
 	"theme": [],
+	"theme_generator": [],
 	"pdf": [],
 	"rulesengine": [],
 	"reports": [
@@ -104,19 +110,19 @@
 			"id": "8b952230-5575-ed11-9f60-000d3aba46be",
 			"name": "whatsNew_Message_list",
 			"description": "",
-			"application": "planet9_adaptive_list"
+			"application": "neptunedxp_adaptive_list"
 		},
 		{
 			"id": "1d252237-b274-ed11-9f60-000d3aba46be",
 			"name": "WhatsNew_configApps_create",
 			"description": "",
-			"application": "planet9_adaptive_edit"
+			"application": "neptunedxp_adaptive_edit"
 		},
 		{
 			"id": "16fb5c5b-9274-ed11-9f60-000d3aba46be",
 			"name": "WhatsNew_configApps",
 			"description": "",
-			"application": "planet9_adaptive_list"
+			"application": "neptunedxp_adaptive_list"
 		}
 	],
 	"api_authentication": [],
@@ -139,6 +145,7 @@
 			"name": "Admin - WhatsNew -  Configure app"
 		}
 	],
+	"tile_layout": [],
 	"category": [
 		{
 			"id": "459abb96-b574-ed11-9f60-000d3aba46be",
@@ -146,7 +153,9 @@
 			"name": "Administration: Whats New"
 		}
 	],
+	"tilegroup_layout": [],
 	"launchpad": [],
+	"launchpad_layout": [],
 	"certificates": [],
 	"role": [],
 	"systems": [],
@@ -167,23 +176,19 @@
 			"description": "List of all the messages "
 		}
 	],
-	"events": [],
-	"media_library": [
+	"i18n": [
 		{
-			"id": "5147A656-45A6-EE11-8925-000D3AB39531",
-			"updatedAt": "2023-12-29T12:25:24.193Z",
-			"name": "WhatsNew",
-			"parent": "C7E620E7-D3C6-EC11-997E-DC9840109182",
-			"package": "FC50F7C2-4151-ED11-819C-000D3ABA7F72"
+			"id": "deccf975-cd7b-49c8-9e1f-b42700eadf6d",
+			"name": "whatsnew",
+			"description": null
 		},
 		{
-			"id": "FC074895-45A6-EE11-8925-000D3AB39531",
-			"updatedAt": "2023-12-29T12:27:09.270Z",
-			"name": "WhatsNew",
-			"parent": null,
-			"package": "FC50F7C2-4151-ED11-819C-000D3ABA7F72"
+			"id": "a0b03b08-163d-494f-91ae-383e412fe82c",
+			"name": "whatsnew_admin",
+			"description": null
 		}
 	],
+	"events": [],
 	"code_snippets": [
 		{
 			"id": "66c92bd8-39a6-ee11-8925-000d3ab39531",
@@ -192,5 +197,15 @@
 		}
 	],
 	"wf_determination": [],
-	"wf_taskaction": []
+	"wf_taskaction": [],
+	"theme_ui5": [],
+	"webapp": [],
+	"ui5_control": [],
+	"ai_agent": [],
+	"ai_model": [],
+	"ai_prompt": [],
+	"ai_tool": [],
+	"ai_guardrail": [],
+	"path_rewrite": [],
+	"vault": []
 }

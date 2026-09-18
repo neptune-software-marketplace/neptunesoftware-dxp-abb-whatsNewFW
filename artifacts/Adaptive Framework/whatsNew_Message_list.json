@@ -44,11 +44,25 @@
 					"butType": "Accept",
 					"destinationTargetA": "whatsnew_admin",
 					"keyField": []
-				}
+				},
+				"iconButtonEdit": "",
+				"textButtonEdit": "Edit",
+				"typeButtonEdit": "Emphasized",
+				"iconButtonDisplay": "",
+				"textButtonDisplay": "Display",
+				"typeButtonDisplay": "Emphasized",
+				"enableEditDisplay": false,
+				"requiredFieldsToast": "Please fill in all required fields",
+				"textConfirmDelete": "Do you want to delete this entry? ",
+				"titleConfirmDelete": "Delete",
+				"odataValueList": "Field does not have any OData ValueListReference"
 			},
 			"form": {
 				"enableCompact": false,
-				"headerExpanded": true
+				"headerExpanded": true,
+				"enableExpandHeader": true,
+				"headerPreserveState": false,
+				"enableSearchWildcard": false
 			},
 			"table": {
 				"enablePagination": true,
@@ -77,7 +91,14 @@
 					"keyField": []
 				},
 				"initialSortField": "updatedAt",
-				"initialSortOrder": "DESC"
+				"initialSortOrder": "DESC",
+				"enableAutoPopin": false,
+				"enableAction4": false,
+				"enableAction5": false,
+				"action4Text": "",
+				"action4Type": "Transparent",
+				"action5Text": "",
+				"action5Type": "Transparent"
 			}
 		},
 		"fieldCatalog": [
@@ -107,7 +128,7 @@
 			},
 			{
 				"name": "highlight",
-				"label": "Highlight ",
+				"label": "Highlight",
 				"type": "boolean",
 				"usage": "BOTH"
 			},
@@ -155,7 +176,7 @@
 			},
 			{
 				"name": "url",
-				"label": "Url to complement the Message, if needed ",
+				"label": "Media Type, Image or Video.",
 				"type": "text",
 				"usage": "BOTH"
 			},
@@ -311,7 +332,8 @@
 			"val": [],
 			"inclusions": {},
 			"exclusions": {}
-		}
+		},
+		"table": "whatsnew_main"
 	},
 	"name": "whatsNew_Message_list",
 	"description": "",
@@ -321,13 +343,14 @@
 	"scriptSel": null,
 	"scriptRun": null,
 	"tableid": null,
-	"ver": "22.12.6.1519",
+	"ver": "26.09.15.1058",
 	"disabled": false,
 	"appType": "A",
-	"application": "planet9_adaptive_list",
+	"application": "neptunedxp_adaptive_list",
 	"package": "fc50f7c2-4151-ed11-819c-000d3aba7f72",
 	"roles": [],
 	"scriptSelObj": null,
 	"scriptRunObj": null,
-	"tableObj": null
+	"tableObj": null,
+	"i18n": []
 }

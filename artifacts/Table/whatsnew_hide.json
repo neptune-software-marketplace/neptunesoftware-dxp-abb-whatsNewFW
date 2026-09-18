@@ -1,37 +1,40 @@
 {
-	"id": "59454518-4551-ed11-819c-000d3aba7f72",
-	"createdAt": "2022-10-21T13:34:33.320Z",
-	"createdBy": "carlos.pires@neptune-software.com",
+	"id": "1ac8d8db-d8fe-4048-b444-ed5587451973",
+	"createdAt": "2026-09-14T16:09:06.000Z",
+	"createdBy": "admin",
 	"fields": [
 		{
-			"id": "286e86c8-abf1-4a76-9300-7df904badd43",
+			"id": "989b5135-6443-42b1-b814-50a5b8fcf1e5",
 			"fieldName": "userID",
 			"fieldType": "smalltext",
-			"description": "User id",
-			"isUnique": false
+			"isUnique": false,
+			"description": "User id"
 		},
 		{
-			"id": "5bfaed15-57b7-475d-a962-20f9ee3a1241",
+			"id": "8f4000e7-a977-479b-bfa8-b0202a118a22",
 			"fieldName": "MessagUUID",
 			"fieldType": "uuid",
-			"description": "Message id ",
-			"isUnique": false
+			"isUnique": false,
+			"description": "Message id "
 		},
 		{
-			"id": "900864cc-731c-4fa9-978d-4f7ff8a818ee",
+			"id": "fe8d74be-80b6-46a0-c407-3f0d05e644d4",
 			"fieldName": "Hide",
 			"fieldType": "boolean",
+			"isUnique": false,
 			"description": "Never show this again "
 		}
 	],
 	"indices": [],
 	"foreignKeys": [],
+	"vectorStoreConfig": {},
 	"name": "whatsnew_hide",
 	"description": "Message already shown, and the user select to no show again",
-	"ver": "23.12.29.102",
+	"ver": "26.09.14.1710",
 	"enableAudit": false,
 	"includeDataInPackage": false,
 	"package": "fc50f7c2-4151-ed11-819c-000d3aba7f72",
+	"generationStrategy": null,
 	"rolesRead": [],
 	"rolesWrite": []
 }

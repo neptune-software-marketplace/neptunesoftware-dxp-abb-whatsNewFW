@@ -23,12 +23,14 @@
 	],
 	"indices": [],
 	"foreignKeys": [],
+	"vectorStoreConfig": null,
 	"name": "whatsnew_config",
 	"description": "Config table for the What's new framework",
 	"ver": "23.12.29.103",
 	"enableAudit": false,
 	"includeDataInPackage": false,
 	"package": "fc50f7c2-4151-ed11-819c-000d3aba7f72",
+	"generationStrategy": null,
 	"rolesRead": [],
 	"rolesWrite": []
 }

@@ -11,10 +11,12 @@
 	"configMessage": {
 		"type": "None"
 	},
+	"navbarGroupOrder": [],
+	"sidebarGroupOrder": [],
 	"title": "What's New",
 	"subTitle": null,
+	"menuText": null,
 	"description": null,
-	"titleAlignment": null,
 	"enableFullScreen": false,
 	"hideHeader": false,
 	"backgroundType": "cards",
@@ -63,20 +65,56 @@
 	"roleTag": null,
 	"cockpitTileGroup": false,
 	"package": "fc50f7c2-4151-ed11-819c-000d3aba7f72",
+	"openClickTile": false,
+	"groupLayoutLight": null,
+	"groupLayoutDark": null,
+	"tileLayoutLight": null,
+	"tileLayoutDark": null,
+	"cardWidth": null,
+	"cardHeight": null,
+	"tileBackgroundHeight": null,
+	"imageHeightMedia": null,
+	"imageTabletHeightMedia": null,
+	"imageMobileHeightMedia": null,
+	"imageDark": null,
+	"imageTabletDark": null,
+	"imageMobileDark": null,
+	"imageDarkHeightMedia": null,
+	"imageTabletDarkHeightMedia": null,
+	"imageMobileDarkHeightMedia": null,
+	"forceTileAttributes": false,
+	"forceGroupAttributes": false,
+	"imageDarkNone": false,
+	"imageTabletDarkNone": false,
+	"imageMobileDarkNone": false,
+	"noInheritGroupLayout": false,
+	"noInheritTileLayout": false,
+	"navbarWidth": null,
+	"sidebarWidth": null,
+	"navbarFit": null,
+	"sidebarFit": null,
+	"FIORI_STYLE": null,
 	"roles": [],
+	"lightGroupLayouts": [],
+	"darkGroupLayouts": [],
+	"lightTileLayouts": [],
+	"darkTileLayouts": [],
 	"tiles": [
 		{
 			"id": "9ed841f1-3b59-ed11-819c-000d3aba42c8",
 			"name": "Admin - WhatsNew",
 			"title": "WhatsNew",
-			"ver": "23.12.29.1227"
+			"ver": "26.09.15.1123"
 		},
 		{
 			"id": "39102447-b574-ed11-9f60-000d3aba46be",
 			"name": "Admin - WhatsNew -  Configure app",
 			"title": "Configure app",
-			"ver": "23.12.29.1228"
+			"ver": "26.09.15.1123"
 		}
 	],
-	"tilegroups": []
+	"tilegroups": [],
+	"navbarGroups": [],
+	"sidebarGroups": [],
+	"i18n": []
 }

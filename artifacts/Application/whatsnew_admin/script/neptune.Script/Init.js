@@ -25,6 +25,7 @@ function AfterRendering(e) {
 }
 
 sap.ui.getCore().attachInit(function (startParams) {
+
     oFlexBoxContainer.removeEventDelegate(eventName);
     if (startParams == undefined) {
         setTimeout(function () {
@@ -38,7 +39,7 @@ sap.ui.getCore().attachInit(function (startParams) {
                 messageTitle: "",
                 startDate: new Date(),
                 url: "",
-                validUntil: new Date(new Date().setFullYear(new Date().getFullYear() + 1)), 
+                validUntil: new Date(new Date().setFullYear(new Date().getFullYear() + 1)),
             };
             data.startDate = formatDate(data.startDate);
             data.validUntil = formatDate(data.validUntil);
@@ -85,7 +86,7 @@ if (sap.n) {
 
                 var options = {
                     parameters: {
-                        id: data.id,  
+                        id: data.id,
                     },
                 };
                 apicheckHidden(options);
